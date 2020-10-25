@@ -1,15 +1,19 @@
 .container {
   max-width: 120rem;
-  margin: 8rem auto;
+  margin: 5rem auto;
   background-color: var(--grey-light-2);
-  min-height: 10rem;
+  min-height: 50rem;
   box-shadow: var(--shadow-dark);
 }
 
 .header {
   height: 7rem;
+  font-size: 1.4rem;
   background-color: #fff;
   border-bottom: var(--grey-dark-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -18,10 +22,17 @@
 
 .sidebar {
   background-color: var(--grey-dark-1);
-  flex: 0 0 18%;
+
+  flex: 0 0 18%; 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .hotel-view {
-  background-color: orangered;
+  // background-color: orangered;
   flex: 1;
+  height:80rem;
 }
